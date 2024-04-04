@@ -77,7 +77,7 @@ button {
     box-shadow: #8ba888 4px 4px 0 0;
     color: #422800;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     font-weight: 500;
     font-size: 15px;
     padding: 0px;
@@ -112,7 +112,7 @@ button a {
     box-shadow: #8ba888 4px 4px 0 0;
     color: #422800;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     font-weight: 500;
     font-size: 15px;
     padding: 0 2px;
@@ -122,8 +122,6 @@ button a {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    margin-bottom: 20px;
-    margin-left: 5px;
 }
 
 .button:hover {
@@ -483,7 +481,7 @@ img {
 
     button {
         font-size: 25px;
-        padding: 0 50px; 
+        padding: 0px; 
         margin-bottom: 20px;
         margin-left: 10px;
     }
@@ -491,8 +489,6 @@ img {
     .button {
         font-size: 25px;
         padding: 0 50px;
-        margin-bottom: 20px;
-        margin-left: 10px;
     }
   }
 
@@ -653,8 +649,6 @@ img {
     .button {
         font-size: 35px;
         padding: 0 50px;
-        margin-bottom: 20px;
-        margin-left: 10px;
     }
 
     .pet-name {
